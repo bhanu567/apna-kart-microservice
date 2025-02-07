@@ -1,0 +1,13 @@
+{
+  "name": "apna-cart",
+  "version": "1.0.0",
+  "description": "an ecommerce application",
+  "main": "server.js",
+  "scripts": {
+    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "start": "npm run start --prefix server"
+  },
+  "keywords": [],
+  "author": "Bhanu Prakash Jha",
+  "license": "ISC"
+}
